@@ -1,0 +1,11 @@
+/* --- FONT IMPORT ----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900');
+
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../font/Gotham-Book.woff') format('woff'),
+       url('../font/Gotham-Book.woff2') format('woff2'),
+       url('../font/Gotham-Book.ttf') format('truetype');
+  font-weight: normal;
+}

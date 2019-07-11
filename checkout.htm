@@ -1,0 +1,319 @@
+<?PHP
+	global $zlcms;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Checkout</title>
+	<link href="style/font.css" rel="stylesheet">
+	<link href="style/bootstrap-reboot.min.css" rel="stylesheet">
+	<link href="style/bootstrap-grid.min.css" rel="stylesheet">
+	<link href="style/bootstrap.min.css" rel="stylesheet">
+	<!-- FONT AWESOME LINK -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- matrial icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="style/editor.css" rel="stylesheet">
+	<link href="style/format.css" rel="stylesheet">
+	<link href="style/media.css" rel="stylesheet">
+
+	<!--[if lte IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<header class="border-bottom">
+	<div class="container-fluid">
+		<div class="header-top">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="menu">
+				<span class="search another-page">
+					<img src="images/icons/search.png" alt="">
+				</span>
+				<span class="lock">
+					<img src="images/icons/lock.png" alt="">
+					<span class="lock-number">3</span>
+				</span>
+				<span class="menu-icon">
+					<img src="images/icons/menu.png" alt="">
+				</span>
+			</div> <!-- .menu ends -->
+		</div> <!-- .header-top ends -->
+	</div> <!-- .container-fluid ends -->
+</header>
+
+
+<div class="overlay"></div>
+<!-- NAV STARTS -->
+<nav>
+	<span class="nav-close"><i class="fas fa-times"></i></span>
+	<ul class="main-menu">
+		<li><a href="#">Home</a></li>
+		<li>
+			<a href="#"><i class="fas fa-chevron-left"></i> Products</a>
+			<!-- SUBMENU STARTS -->
+			<ul class="submenu-one">
+				<li>
+					<a href="#"><i class="fas fa-chevron-left"></i> Bovine Products</a>
+					<!-- SUBMENU TWO STARTS -->
+					<ul class="submenu-two">
+						<li><a href="#">Diagnostic Test Kits</a></li>
+						<li><a href="#">FA Reagents</a></li>
+						<li><a href="#">Antibodies</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Canine Products</a></li>
+				<li><a href="#">Equine Products</a></li>
+				<li><a href="#">Feline Products</a></li>
+				<li><a href="#">Porcine Products</a></li>
+				<li><a href="#">Multi-Species Products</a></li>
+				<li><a href="#">ElisaPro</a></li>
+				<li><a href="#">FA Buffers &amp; Mounting Fluids</a></li>
+			</ul> <!-- submenu list ends -->
+		</li>
+		<li><a href="#"><i class="fas fa-chevron-left"></i> Biologics Testing</a></li>
+		<li><a href="#">About Us</a></li>
+		<li><a href="#"><i class="fas fa-chevron-left"></i> Resources &amp; Support</a></li>
+		<li><a href="#">Career Openings</a></li>
+		<li><a href="#">News &amp; Announcents</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">myBIOLOGICS (login)</a></li>
+	</ul>
+</nav>
+
+
+<main class="checkout-page">
+	<div class="cfr-testing-header">
+		<div class="nav-2">
+			<div class="container">
+				<ul>
+					<li><a href="#">International Customers</a></li>
+					<li><a href="#">How To Order</a></li>
+					<li><a href="#">Submit A Sample</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="bluetongue-virus-heading">
+			<h4><span class="regular">ORDER</span> SUMMARY</h4>
+		</div>
+	</div>
+
+
+	<div class="checkout-table">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-2">
+					<ul class="checkout-table-heading">
+						<li>CATALOG ID:</li>
+						<li>CATEGORY:</li>
+						<li># OF ITEMS:</li>
+					</ul>
+					<ul class="checkout-table-text">
+						<li>9C-MSV-BOV</li>
+						<li>VIRUS BANK CHARACTERIZATION</li>
+						<li class="qty"><span>Qty:</span>
+							<form action="">
+								<input type="text">
+							</form>
+						</li>
+					</ul>
+					<ul class="checkout-table-text">
+						<li>9C-B&amp;F</li>
+						<li>STERILITY TESTING</li>
+						<li class="qty"><span>Qty:</span>
+							<form action="">
+								<input type="text">
+							</form>
+						</li>
+					</ul>
+					<div class="total-item-area">
+						<p class="total-items text-right">TOTAL # OF ITEMS:
+							<span>5</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-8 offset-md-2">
+				<div class="single-p">
+					<p>In order to complete your purchase, please fill out the contact information below and a request will be sent to VMRD to fufill your order.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="contact-form">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-2">
+					<div class="contact-form-heading">
+						<h5>CONTACT <span class="light">INFO</span></h5>
+					</div>
+					<form action="">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="contact-form-input">
+									<label for="">First Name</label>
+									<input type="text">
+								</div>
+								<div class="contact-form-input">
+									<label for="">Last Name</label>
+									<input type="text">
+								</div>
+								<div class="contact-form-input">
+									<label for="">Address</label>
+									<input type="text">
+								</div>
+								<div class="row">
+									<div class="col-12 col-md-5">
+										<div class="contact-form-input">
+											<label for="">City</label>
+											<input type="text">
+										</div>
+									</div>
+									<div class="col-12 col-md-3">
+										<div class="contact-form-input">
+											<label for="">State</label>
+											<input type="text">
+										</div>
+									</div>
+									<div class="col-12 col-md-4">
+										<div class="contact-form-input">
+											<label for="">ZIP</label>
+											<input type="text">
+										</div>
+									</div>
+								</div>
+								<div class="contact-form-input">
+									<label for="">Phone Number</label>
+									<input type="text">
+								</div>
+								<div class="contact-form-input">
+									<label for="">Email Address</label>
+									<input type="text">
+								</div>
+								<div class="contact-form-input">
+									<label for="">Business Name</label>
+									<input type="text">
+								</div>
+								<div class="contact-form-input">
+									<div class="robot-area">
+										<img src="images/not-robot.png" alt="">
+									</div>
+									<a href="#" class="button green-bg">SEND ORDER REQUEST</a>
+								</div> <!-- .contact-form-input ends -->
+							</div>
+						</div> <!-- .row ends -->
+					</form>
+				</div>
+			</div>
+		</div> <!-- .container ends -->
+	</div> <!-- .contact-form ends -->
+	
+</main>
+
+
+<!-- FOOTER STARTS -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-6 order-1 order-lg-1 col-lg-4">
+				<div class="footer-header">
+					<a href="#"><img src="images/logo.png" alt=""></a>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-12 col-sm-6 order-5 order-lg-2 col-lg-4">
+				<div class="footer-header footer-header-button">
+					<button class="common-style green-bg size-18">
+						<img src="images/icons/right-white.png" alt=""> myBIOLOGICS (login)
+					</button>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-12 col-sm-6 order-2 order-lg-3 col-lg-4">
+				<div class="footer-header">
+					<form action="">
+						<input type="text" placeholder="SEARCH ALL">
+						<button class="search-icon"><img src="images/icons/search.png" alt=""></button>
+					</form>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-6 col-sm-6 order-3 order-lg-4 col-lg-3">
+				<div class="footer-text">
+					<h6>CONTACT US</h6>
+					<p>Phone: (509) 334-5815</p>
+					<p>Fax: (509) 332-5356</p>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-6 col-sm-6 order-4 order-lg-5 col-lg-3">
+				<div class="footer-text">
+					<h6>TECH SUPPORT</h6>
+					<p>Products Support</p>
+					<p>Biologics Testing Support</p>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-12 col-sm-6 order-6 order-lg-6 col-lg-3">
+				<div class="footer-text footer-text-button">
+					<button class="size-18 common-style"><img src="images/icons/right-white.png" alt=""> DISTRIBUTORS</button>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-12 col-sm-6 order-7 order-lg-7 col-lg-3">
+				<div class="footer-text">
+					<h6>FOLLOW US</h6>
+					<ul class="social-icon">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div> <!-- .col ends -->
+
+
+			<div class="col-12 order-8 order-lg-8">
+				<div class="copyright">
+					<p>Copyright &copy; 2019 VMRD, Inc.</p>
+					<ul>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div> <!-- .col ends -->
+		</div> <!-- .row ends -->
+	</div> <!-- .container ends -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="includes/bootstrap.min.js"></script>
+<script src="includes/javascript.js"></script>
+</body>
+</html>

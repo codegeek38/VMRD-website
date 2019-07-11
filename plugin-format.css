@@ -1,0 +1,33 @@
+
+/** [[ ENTER NAME HERE ]] Plugin Stylesheet -------------------------------------------*/
+
+
+
+
+
+
+
+/** min-width: 768px is everything above 768px - tablet and larger -------------------*/
+@media (min-width: 768px) {
+
+}
+
+/** min-width: 992px is everything above 992px - laptop/smaller desktop and larger ---*/
+@media (min-width: 992px) {
+
+}
+
+/** min-width: 1200px is everything above 1200px -------------------------------------*/
+@media (min-width: 1200px) {
+
+}
+
+/** Everything smaller than 500px ----------------------------------------------------*/
+@media (max-width: 500px) {
+
+}
+
+/** Print Media ----------------------------------------------------------------------*/
+@media print {
+
+}

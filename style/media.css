@@ -1,0 +1,1247 @@
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 980px){
+		
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1199px) {
+h1 {
+	font-size: 110px;
+}
+h2 {
+	font-size: 52px;
+	line-height: 1.2;
+}
+h3 {
+	font-size: 44px;
+}
+header {
+	padding: 35px 80px 40px 70px;
+}
+.home-bannner {
+	padding: 210px 0px 130px;
+}
+.home-bannner p {
+	padding-right: 45px;
+}
+.index-banner-layer {
+	height: 125px;
+}
+.half-container {
+	width: 435px;
+}
+.product-text-right {
+	padding-left: 30px;
+}
+.product-text h4 {
+	margin-bottom: 20px;
+}
+.product-text p {
+	margin-bottom: 30px;
+}
+.product-text-left p {
+	padding-right: 15px;
+}
+.headline {
+	margin-bottom: 30px;
+}
+.headline h3 {
+	margin-bottom: 15px;
+}
+.headline-icon img {
+	margin-bottom: 24px;
+	max-height: 140px;
+}
+.headline-icon p {
+	font-size: 23px;
+}
+.headline-area {
+	padding: 65px 0px 90px;
+}
+
+.content-table ul li a {
+	font-size: 1.0em;
+	padding: 10px 25px 8px 20px;
+}
+.cfr-testing-page .contact-button-2 a {
+	font-size: 18px;
+	margin: 75px 15px 89px;
+	padding: 12px 23px 10px;
+}
+
+
+/*cfr-testing-page*/
+.cfr-testing-page .banner-bottom p {
+	padding-right: 65px;
+}
+.overview-right .overview-content h5 {
+	width: 140px;
+}
+.overview-image-area {
+	width: calc(100% - 140px);
+}
+
+.footer-text-button button {
+	font-size: 16px;
+}
+.footer-header form input {
+	height: 50px;
+}
+.footer-header form button {
+	height: 40px;
+}
+.footer-header {
+	margin-bottom: 65px;
+}
+.footer-header form {
+	top: 10px;
+}
+footer .copyright ul {
+	padding-top: 0;
+}
+
+
+.banner-two-text a.button {
+	font-size: 21px;
+}
+.blog-content-text-2 a {
+	font-size: 21px;
+}
+.blog-content-text h3 {
+	margin-bottom: 25px;
+	font-size: 40px;
+}
+.blog-content-text-2 p {
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+.blog-content-2 {
+	padding: 100px 0px;
+}
+.about-page .banner-bottom h3 {
+	font-size: 38px;
+}
+.about-page .banner-bottom a.button {
+	padding: 10px 10px 6px;
+	font-size: 16px;
+}
+.about-page .banner-bottom a.button img {
+	margin-right: 12px;
+}
+.blog-content-image-3 img {
+	height: 350px;
+	width: 350px;
+}
+.blog-content-3 {
+	margin-bottom: 75px;
+}
+.blog-content-text h3 {
+	margin-bottom: 16px;
+	font-size: 36px;
+}
+.news-heading h3 {
+	margin-bottom: 60px;
+}
+.n-padding-right {
+	padding-right: 0;
+}
+.n-padding-left {
+	padding-left: 0;
+}
+.n-padding-l-r {
+	padding: 0;
+}
+.news-all-button a {
+	font-size: 22px;
+}
+.single-news {
+	margin-bottom: 32px;
+}
+
+
+.biologic-testing-page .center-heading p {
+	padding: 0px 100px;
+}
+.si-margin-left {
+	margin-left: 0;
+}
+.si-margin-right {
+	margin-right: 0;
+}
+.biologic-testing-page .hover-title span {
+	font-size: 44px;
+}
+.biologic-testing-page .single-image {
+	margin-bottom: 30px;
+}
+.biologic-testing-page .center-heading-2 {
+	padding: 45px 0px 40px;
+}
+.image-title span {
+	font-size: 35px;
+}
+.faq-page .banner {
+	padding: 220px 0px 66px;
+}
+.faq-icons-area {
+	margin: 60px 0px 95px;
+}
+.faq-content-left {
+	padding-right: 0;
+}
+.faq-content-right {
+	padding-left: 0;
+}
+.faq-content {
+	margin-bottom: 60px;
+}
+.products-page .hover-title span {
+	font-size: 26px;
+}
+.technical-library-page .n-padding-right {
+	padding-right: 0;
+}
+.technical-library-page .n-padding-l-r {
+	padding: 0;
+}
+.technical-library-page .n-padding-left {
+	padding-left: 0;
+}
+.virus-testing-page .banner-bottom a.button {
+	padding: 10px 18px 6px;
+}
+/*width:1200*/
+}
+
+
+
+@media only screen and (max-width: 991px) {
+h1 {
+	font-size: 90px;
+}
+h2 {
+	font-size: 60px;
+}
+h3 {
+	font-size: 40px;
+}
+h4 {
+	font-size: 35px;
+}
+/*nav style*/
+.main-menu {
+	width: 350px;
+}
+nav ul {
+	padding-top: 105px;
+}
+nav ul li a i {
+	left: 17px;
+	top: 19px;
+	transform: rotate(-90deg);
+}
+.nav-close {
+	font-size: 36px;
+	top: 20px;
+	right: 40px;
+}
+.submenu-one {
+	width: 100%;
+	position: relative;
+	right: 0;
+	padding-top: 0;
+}
+.submenu-two {
+	width: 100%;
+	position: relative;
+	right: 0;
+	padding-top: 0;
+}
+
+
+/*index style*/
+.size-22 {
+	font-size: 20px;
+}
+header {
+	padding: 25px 50px 35px 30px;
+}
+.logo img {
+	max-width: 295px;
+}
+.menu .search img {
+	width: 35px;
+}
+.menu-icon img {
+	width: 40px;
+}
+.search {
+	margin-right: 30px;
+}
+.lock {
+	margin-right: 30px;
+}
+.lock img {
+	height: 36px;
+}
+.search.another-page {
+	margin-right: 25px;
+}
+.home-bannner a.button img.icon {
+	margin-right: 16px;
+	height: 30px;
+	width: 30px;
+}
+.home-bannner a {
+	padding: 5px 35px 4px 10px;
+}
+.home-bannner {
+	padding: 150px 0px 120px;
+}
+.index-banner-layer {
+	height: 95px;
+}
+.home-bannner p {
+	padding-right: 0;
+	font-size: 20px;
+}
+.half-container {
+	width: 345px;
+}
+.product-text h4 {
+	margin-bottom: 15px;
+}
+.product-text p {
+	margin-bottom: 25px;
+}
+.product-text a img {
+	height: 30px;
+	margin-right: 13px;
+	width: 30px;
+}
+.product-text {
+	padding: 45px 0px 50px;
+}
+.home-bannner {
+	margin-bottom: 65px;
+}
+.headline p {
+	padding: 0px 40px;
+}
+.headline-icon img {
+	margin-bottom: 20px;
+	max-height: 100px;
+}
+.headline-icon p {
+	font-size: 18px;
+}
+.headline {
+	margin-bottom: 25px;
+}
+.headline-area {
+	padding: 60px 0px 70px;
+}
+
+
+
+/*footer style*/
+.footer-header-button {
+	margin-top: 30px;
+	margin-left: 0;
+}
+.footer-header {
+	margin-bottom: 45px;
+}
+.footer-text-button button {
+	padding: 6px 20px;
+	margin-top: 30px;
+}
+
+
+
+.nav-2 ul li a {
+	font-size: 16px;
+}
+.nav-3 ul li a {
+	font-size: 16px;
+}
+.nav-3 ul li a span {
+	padding-left: 12px;
+}
+.virus-testing-heading-text h3{
+	font-size: 30px;
+}
+.virus-testing-heading-text a {
+	font-size: 21px;
+}
+.virus-testing-heading-text img {
+	margin-right: 15px;
+	top: -2px;
+	height: 32px;
+}
+.nav-2 {
+	margin-bottom: 60px;
+}
+.overview-content {
+	margin-bottom: 70px;
+	flex-flow: column;
+}
+.overview-content h5 {
+	width: 100%;
+	padding-right: 0px;
+	display: block;
+}
+.overview-content p {
+	width: 100%;
+	padding-top: 0px;
+}
+.overview-right .overview-content h5 {
+	width: 100%;
+}
+.overview-image-area {
+	width: 100%;
+}
+.contact-button a {
+	padding: 12px 120px 10px;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.overview-area {
+	padding: 60px 0px 80px;
+}
+.content-table ul.content-table-header.hide-lg {
+	display: none;
+}
+.visible-lg{
+    display: block;
+}
+.content-table ul {
+	flex-flow: column;
+}
+.content-table ul.content-table-list {
+	border-bottom: none;
+	padding: 0px 0px 25px 0px;
+}
+.content-table ul li {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+.content-table ul li span {
+	width: 50%;
+	padding: 10px 20px;
+	line-height: 1.4;
+	border: 1px solid #636B6E;
+	margin-bottom: 2px;
+}
+.content-table ul li span.content-table-header {
+	background: #636B6E;
+	color: #fff;
+}
+.content-table ul.content-table-list li.button-area {
+	width: 100%;
+}
+.content-table ul li span.number{
+	border: none;
+}
+.cfr-testing-page .contact-button-2 a {
+	font-size: 16px;
+	margin: 20px 15px 65px;
+	padding: 12px 19px 10px;
+}
+.cfr-testing-page .banner-bottom a.button {
+	padding: 10px 40px 6px 35px;
+}
+.cfr-testing-page .banner-bottom {
+	padding: 36px 0px 50px;
+}
+.cfr-testing-page .banner-bottom p {
+	padding-right: 0;
+}
+.content-table ul li a {
+	font-size: .8em;
+}
+.contact-form-input input.right {
+	width: 100%;
+}
+.contact-form-heading {
+	margin-bottom: 30px;
+}
+.contact-form-input a {
+	font-size: 20px;
+	padding: 10px 75px 8px;
+}
+.robot-area {
+	margin: 10px 0px 30px;
+}
+.contact-form-input {
+	margin-bottom: 15px;
+}
+.contact-form {
+	padding: 50px 0px 40px;
+}
+.banner {
+	padding: 75px 0px 95px;
+}
+.blog-content-1 {
+	padding: 60px 0px 80px;
+}
+.about-page .banner-two-text p {
+	padding: 0;
+}
+.banner-two-text a.button {
+	font-size: 18px;
+	padding: 12px 45px 6px 16px;
+}
+.banner-two-text a.button img {
+	margin-right: 15px;
+	height: 32px;
+	width: 32px;
+}
+.blog-content-image-2 {
+	padding-right: 0;
+	margin-bottom: 25px;
+}
+.blog-content-text-2 {
+	padding-left: 0;
+}
+.about-page .banner-bottom a.button {
+	margin-left: 0;
+}
+.blog-content-image-3 img {
+	height: auto;
+	width: 100%;
+	border-radius: 0px;
+	margin-bottom: 22px;
+}
+.single-news p a {
+	font-size: 17px;
+}
+.news-heading h3 {
+	margin-bottom: 40px;
+}
+.blog-content-3 {
+	margin-bottom: 55px;
+}
+
+.biologic-testing-page .center-heading p {
+	padding: 0;
+}
+.biologic-testing-page .hover-title span {
+	font-size: 30px;
+}
+.image-hover ul li {
+	font-size: 20px;
+	margin-bottom: 1px;
+}
+.center-heading-1 {
+	padding: 55px 0px 30px;
+}
+.biologic-testing-page .center-heading-2 {
+	padding: 31px 0px 31px;
+}
+.image-title span {
+	font-size: 30px;
+}
+
+.faq-page .banner {
+	padding: 175px 0px 60px;
+}
+.faq-icon img {
+	margin-bottom: 15px;
+	max-height: 85px;
+}
+.faq-icon-border {
+	padding-bottom: 40px;
+}
+.faq-icons-area {
+	margin: 55px 0px 65px;
+}
+.faq-single-content {
+	padding: 22px 25px;
+	margin-bottom: 25px;
+}
+.faq-content-area {
+	margin-bottom: 15px;
+}
+.blog-content {
+	padding: 90px 0px 55px;
+}
+.blog-content-text p {
+	padding-right: 0;
+}
+.banner-two-text p {
+	margin-bottom: 35px;
+}
+.holiday-hours-text h3 {
+	font-size: 40px;
+}
+.blog-content {
+	padding: 65px 0px;
+}
+.holiday-hours-text h3 {
+	font-size: 35px;
+	margin-bottom: 23px;
+}
+.single-image {
+	width: 50%;
+}
+.products-page .center-heading p {
+	padding: 0 60px;
+}
+.slider-text {
+	margin-bottom: 35px;
+}
+.slider-title {
+	padding-left: 160px;
+}
+.reagent-blog-text {
+	padding-left: 0;
+}
+.reagent_template .overview-area {
+	padding: 55px 0px 80px;
+}
+.checkout-page .nav-2 {
+	margin-bottom: 45px;
+}
+.checkout-page .bluetongue-virus-heading h4 {
+	font-size: 32px;
+	padding: 19px 56px 10px;
+}
+.checkout-table ul.checkout-table-heading li {
+	font-size: 18px;
+}
+ul.checkout-table-text li {
+	font-size: 16px;
+}
+.total-items {
+	font-size: 18px;
+}
+.home-page .product-text a {
+	font-size: 20px;
+}
+.content-table ul li:last-child {
+	width: 100%;
+}
+.content-table ul.content-table-list li .button-area {
+	display: block;
+}
+.content-table ul li span.number {
+	padding-left: 0;
+}
+.checkout-page .contact-form-heading h5 {
+	font-size: 30px;
+}
+.banner-search-button img {
+	height: 28px;
+	margin-top: 18px;
+}
+
+.virus-testing-page .product-text a {
+	padding: 5px 40px 5px 15px;
+	border-radius: 5px;
+}
+.virus-testing-page .contact-button-2 a.no-bg {
+	margin-right: 15px;
+}
+.virus-testing-page .contact-button-2 a {
+	font-size: 18px;
+	margin: 0px 15px 75px;
+}
+/*width:992*/
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+h1 {
+	font-size: 66px;
+}
+.size-18 {
+	font-size: 16px;
+}
+.nav-close {
+	font-size: 30px;
+	top: 15px;
+	right: 25px;
+}
+nav ul {
+	padding-top: 80px;
+}
+nav ul li a {
+	font-size: 18px;
+	padding: 13px 45px;
+}
+nav ul li a i {
+	top: 17px;
+}
+
+/*index-style*/
+h2 {
+	font-size: 46px;
+}
+h3 {
+	font-size: 35px;
+}
+h4 {
+	font-size: 30px;
+}
+.home-bannner {
+	padding: 75px 0px 100px;
+}
+.index-banner-layer {
+	height: 76px;
+}
+.home-bannner p {
+	padding-right: 50px;
+	margin-bottom: 25px;
+	font-size: 19px;
+}
+.half-container {
+	width: 100%;
+	padding: 0px 30px;
+}
+.product-col {
+	width: 100%;
+}
+.product-row {
+	flex-flow: column;
+}
+.product-col-bg-1,.product-col-bg-2 {
+	height: 350px;
+}
+.product-text-right {
+	padding-left: 0;
+}
+.product-text {
+	padding: 25px 0px 55px;
+}
+.product-text h4 {
+	margin-bottom: 10px;
+}
+.product-text p {
+	margin-bottom: 20px;
+}
+.product-text-left p {
+	padding-right: 0;
+}
+.headline p {
+	padding: 0;
+}
+.headline h3 {
+	margin-bottom: 10px;
+}
+.headline {
+	margin-bottom: 15px;
+}
+.headline-icon img {
+	margin-bottom: 10px;
+	max-height: 85px;
+}
+.headline-icon p {
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.headline-area {
+	padding: 45px 0px 35px;
+}
+
+.footer-header {
+	margin-bottom: 34px;
+}
+.footer-header button {
+	padding: 7px 25px 7px 15px;
+}
+.footer-header form input {
+	height: 40px;
+	font-size: 16px;
+}
+.footer-header form button {
+	height: 31px;
+}
+.footer-header form button img {
+	height: 26px;
+}
+footer h6 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+footer p {
+	font-size: 16px;
+}
+
+
+
+.virus-testing-heading-text h3 {
+	font-size: 25px;
+}
+.virus-testing-heading-text img {
+	margin-right: 11px;
+}
+.nav-3 ul li a span {
+	padding-left: 7px;
+}
+.nav-2 {
+	margin-bottom: 40px;
+}
+.virus-testing-heading-text a {
+	font-size: 17px;
+}
+.virus-testing-heading-text a img{
+	height: 26px;
+}
+.nav-3 ul li a {
+	padding-bottom: 5px;
+}
+.overview-area {
+	padding: 45px 0px 60px;
+}
+.overview-content {
+	margin-bottom: 28px;
+}
+.overview-content h5 {
+	margin-bottom: 5px;
+}
+.contact-button a {
+	padding: 12px 100px 10px;
+	font-size: 21px;
+}
+.content-table-heading h4 {
+	margin-bottom: 20px;
+}
+.content-table ul.content-table-list li.button-area {
+	align-items: unset;
+}
+.banner {
+	padding: 60px 0px 70px;
+}
+.blog-content-1 {
+	padding: 40px 0px 55px;
+}
+.blog-content-2 {
+	padding: 65px 0px;
+}
+.blog-content-text h3 {
+	font-size: 30px;
+}
+.blog-content-text-2 a {
+	font-size: 18px;
+}
+.about-page .banner-bottom h3 {
+	font-size: 35px;
+}
+.news-all-button a {
+	font-size: 18px;
+}
+.news-all-button a img {
+	margin-right: 16px;
+	top: -2px;
+	height: 30px;
+}
+.blog-content-text-2 p {
+	margin-bottom: 30px;
+}
+.products-page .product-col, .biologic-testing-page .product-col {
+	width: 100%;
+	min-height: unset;
+}
+.image-title span {
+	font-size: 24px;
+}
+.faq-page .banner {
+	padding: 130px 0px 50px;
+}
+.faq-icon img {
+	max-height: 60px;
+}
+.faq-icon p {
+	font-size: 18px;
+}
+.faq-icon-border {
+	padding-bottom: 30px;
+}
+.faq-icons-area {
+	margin: 40px 0px 50px;
+}
+.faq-content {
+	margin-bottom: 45px;
+}
+.blog-content {
+	padding: 45px 0px;
+}
+.holiday-hours-text h3 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+.holiday-hours-content h5 {
+	font-size: 22px;
+}
+.holiday-hours {
+	padding: 50px 0px 25px;
+}
+.products-page .center-heading p {
+	padding: 0;
+}
+.center-heading-2 {
+	padding: 55px 0px 30px;
+}
+.products-page .product-text p {
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+.slider-heading {
+	margin-bottom: 30px;
+}
+.products-page .product-area {
+	margin-bottom: 20px;
+}
+.slider-text p {
+	padding: 0px 45px;
+}
+.slider-heading img {
+	height: 30px;
+}
+.slider-title {
+	padding-left: 83px;
+}
+.reagent-blog {
+	padding-bottom: 41px;
+}
+.content-search-area form {
+	padding: 28px 0px 27px;
+}
+.content-select-category select {
+	font-size: 18px;
+	margin-right: 10px;
+}
+.content-search-input input {
+	font-size: 18px;
+}
+.content-search-input {
+	width: 50%;
+	margin-left: 10px;
+}
+.content-search-input img {
+	width: 20px;
+}
+.checkout-page .bluetongue-virus-heading {
+	margin: 0 0 20px;
+}
+.checkout-page .bluetongue-virus-heading h4 {
+	font-size: 32px;
+	padding: 15px 30px 11px;
+}
+.checkout-page .contact-form-input {
+	margin-bottom: 18px;
+}
+.lock-number {
+	font-size: 17px;
+}
+.home-page .product-text a {
+	font-size: 18px;
+}
+.checkout-page .contact-form-heading h5 {
+	font-size: 28px;
+}
+/*width:768*/
+}
+
+@media only screen and (max-width: 575px) {
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 26px;
+}
+p {
+	font-size: 17px;
+	line-height: 1.2;
+}
+.size-22 {
+	font-size: 18px;
+}
+.size-20 {
+	font-size: 18px;
+}
+header {
+	padding: 20px 0 25px;
+}
+.logo img {
+	max-width: 170px;
+}
+.search {
+	margin-right: 15px;
+}
+.menu .search img {
+	width: 25px;
+}
+.menu-icon img {
+	width: 28px;
+}
+.main-menu {
+	width: 100%;
+}
+nav ul {
+	padding-top: 50px;
+}
+nav ul li a {
+	font-size: 16px;
+	padding: 10px 40px;
+}
+nav ul li a i {
+	top: 15px;
+}
+.nav-close {
+	font-size: 26px;
+	right: 20px;
+	top: 10px;
+}
+.home-bannner p {
+	line-height: 1.4;
+	margin-bottom: 21px;
+	padding-right: 0;
+	font-size: 18px;
+}
+.home-bannner {
+	padding: 45px 0px 80px;
+	margin-bottom: 35px;
+}
+.index-banner-layer {
+	height: 50px;
+}
+
+.product-col-bg-1, .product-col-bg-2 {
+	height: 250px;
+}
+.half-container {
+	padding: 0px 15px;
+}
+.product-text {
+	padding: 20px 0px 40px;
+}
+.headline-icon {
+	border: 1px solid #4CB64B;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.headline-icon p {
+	margin-bottom: 0;
+}
+.headline p {
+	margin-bottom: 5px;
+}
+.headline-area {
+	padding: 36px 0px 25px;
+}
+
+
+.footer-text-button button {
+	margin-top: -10px;
+	margin-bottom: 25px;
+}
+ul.social-icon li a {
+	height: 30px;
+	width: 30px;
+	padding: 0px;
+}
+ul.social-icon li a i {
+	font-size: 16px;
+}
+footer .copyright {
+	padding-top: 25px;
+}
+footer .copyright p {
+	display: block;
+	float: none;
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+ul.social-icon {
+	padding-top: 5px;
+}
+.nav-2 ul li a {
+	padding-bottom: 5px;
+}
+.nav-2 {
+	margin-bottom: 25px;
+}
+.virus-testing-heading-text {
+	display: block;
+}
+.contact-button a {
+	padding: 12px 58px 10px;
+	font-size: 18px;
+}
+.content-table-heading h4 span {
+	padding-left: 5px;
+}
+.content-table ul li a {
+	font-size: .7em;
+	padding: 10px 12px 8px 11px;
+}
+.cfr-testing-page .contact-button-2{
+	display: block;
+	margin-bottom: 40px;
+}
+.cfr-testing-page .contact-button-2 a {
+	margin: 20px 15px 0px;
+}
+.contact-form-input a {
+	font-size: 18px;
+	padding: 10px 55px 8px;
+}
+.blog-content-text-2 a {
+	font-size: 16px;
+}
+.blog-content-text-2 a img {
+	margin-right: 10px;
+}
+.about-page .banner-bottom a.button {
+	font-size: 15px;
+}
+.banner-bottom {
+	background: #4BB446;
+	padding: 35px 0px 55px;
+}
+.blog-content-text-3 p {
+	font-size: 17px;
+}
+.banner-search form input {
+	height: 56px;
+	font-size: 18px;
+	padding: 5px 60px 5px 25px;
+}
+.banner-search-button {
+	padding-right: 5px;
+	padding-right: 10px;
+}
+.banner-search-button img {
+	height: 24px;
+	margin-top: 18px;
+}
+.faq-icon-flex {
+	display: block;
+}
+.faq-icon {
+	border: 1px solid #636B6E;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.faq-icon-border {
+	padding-bottom: 0;
+	border: none;
+}
+.faq-icons-area {
+	margin: 40px 0px 30px;
+}
+.faq-content-description p {
+	font-size: 18px;
+}
+.slider-title {
+	padding-left: 20px;
+}
+.slider-title img {
+	height: 80px;
+	width: 80px;
+}
+.carousel-indicators {
+	margin-top: 30px;
+}
+.products-page .banner-bottom a.button {
+	font-size: 16px;
+}
+.single-image {
+	width: 100%;
+}
+.reagent_template .overview-area {
+	padding: 35px 0px 50px;
+}
+.content-search-area form .d-flex.justify-content-between {
+	flex-flow: column;
+}
+.content-select-category select {
+	font-size: 16px;
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.content-search-input {
+	width: 100%;
+	margin-left: 0;
+}
+.content-search-area {
+	margin-bottom: 50px;
+}
+.technical-library-page .news-area {
+	margin-bottom: 15px;
+}
+.checkout-page .nav-2 {
+	margin-bottom: 18px;
+}
+.checkout-page .bluetongue-virus-heading h4 {
+	font-size: 28px;
+	padding: 15px 22px 14px;
+}
+.checkout-page .contact-form {
+	padding: 30px 0px 45px;
+}
+.checkout-page .contact-form-heading {
+	margin-bottom: 20px;
+}
+.home-page .product-text a {
+	font-size: 17px;
+}
+.home-page .product-text a img{
+	height: 25px;
+	margin-right: 10px;
+	width: 25px;
+}
+.overview-left .overview-content p {
+	padding-right: 0;
+}
+.checkout-page .contact-form-heading h5 {
+	font-size: 24px;
+}
+.contact-button-2 {
+	display: flex;
+	flex-flow: column;
+}
+.virus-testing-page .contact-button-2 a.no-bg {
+	margin-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.virus-testing-page .contact-button-2 a {
+	margin-bottom: 35px;
+}
+/*width:576*/
+}
+@media only screen and (max-width: 475px) {
+
+
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+
+}
